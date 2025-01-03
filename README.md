@@ -1,16 +1,29 @@
-# weather_app_clean_arch
+# Weather APP
+A Flutter app that shows how to uses MVVM and Clean Architecture Using Bloc and Cubit as the selected state managemnt approach .
 
-A new Flutter project.
+## Implemented by Clean Architecture
+The following project is structured with 3 layers:
 
-## Getting Started
+- Presentation
+- Domain
+- Data
 
-This project is a starting point for a Flutter application.
+## Features
+- UI calls method from Bloc.
+- Bloc executes Use case
+- Each Repository returns data from a Data Source (Cached or Remote) .
+- HTTPS for networking .
+- GetIT for Dependency injection .
+- HIVE and SharedPrefs for local storage
 
-A few resources to get you started if this is your first Flutter project:
+## Scenario
+Used http://api.openweathermap.org as a public api 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## At a glance
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    user select a date then app gets a list of Weather from api .
+    new page will be show weather details
+    In the Item of each Weather, showed Weather name, temperature, humidity.
+    And:
+        Supported offline mode
+
