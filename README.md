@@ -15,6 +15,7 @@ The following project is structured with 3 layers:
 - HTTPS for networking .
 - GetIT for Dependency injection .
 - HIVE and SharedPrefs for local storage
+- testing class added using mocktail
 
 ## Scenario
 Used http://api.openweathermap.org as a public api 
