@@ -1,5 +1,5 @@
 # Weather APP
-A Flutter app that shows how to uses MVVM andClean Architecture Using Bloc and Cubit as the selected state managemnt approch .
+A Flutter app that shows how to uses MVVM and Clean Architecture Using Bloc and Cubit as the selected state managemnt approach .
 
 ## Implemented by Clean Architecture
 The following project is structured with 3 layers:
